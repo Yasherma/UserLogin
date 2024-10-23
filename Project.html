@@ -17,18 +17,20 @@
        
        
         <br><br>
-        <form action="/submit" method="post">
+        <form action="/submit" method="post" onsubmit="handleSubmit(event)">
         <label for="">User Id</label>
         <input type="text"> <button id="btn2">OTP</button>
         <h2 id="hed3"></h2>
         <br><br>
        <label for="OTP">Password</label>
-            <input type="text" required="enter the OTP" placeholder="Enter the ov" name="OTP">
+            <input id="plac" type="text" required="enter the OTP" placeholder="Enter the ov" name="OTP">
       <br><br><br>
-      <input type="submit" value="sign up" >
+      <input id="sign" type="submit" value="sign up" >
      </form>
             </div>
-<script src="Project.js"></script>
+<script src="Project.js">
+    
+</script>
 </body>
 
 

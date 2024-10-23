@@ -28,3 +28,8 @@ document.getElementById('btn2').addEventListener('click', function() {
  
     alert(otp);
 });
+
+function handleSubmit(event){
+    event.preventDefault();
+    window.location.href = 'Project1.html'; 
+}
